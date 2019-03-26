@@ -1,107 +1,99 @@
-body{
-         
-    background: linear-gradient(to right, black,  rgb(255, 190, 86), black) 
+body {
+  background: linear-gradient(to right, black, rgb(255, 190, 86), black);
 }
-.container{
-     margin-top: 100px;
-     /* height: 500px; */
-    border: 5px black;
-    text-align: center;
-     display: flex;
-     flex-direction: column;
-     justify-content: center;
-    
-
-     }
-     
-     
-   h2, h3{
-       /* text-align: center; */
-       margin: 8px;
-       color: rgb(243, 243, 243);
-       font-family: 'Playfair Display', serif;
-   }
-   #name{
-       color: white;
-   }
-   i{
-       /* display: inline-block */
-       size: 200px;
-       padding: 10px
-       
-   }
-  a{
-      color: white
-  }
-
-  .container2{
-      /* outline: 1px solid blue; */
-      display: flex;
-      flex-direction: row;
-      justify-content: center
-      
-  }
-
-  .container3{
-    /* outline: 1px solid blue; */
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    flex-direction: column;
-  
-   
-  }
-  .blogDiv{
-      display: flex;
-      flex-direction: row;
-      justify-content: center;
-      
-  }
-
-  .col{
-
-      margin: auto;
-      padding: 30px;
-  }
-
-#hidden-content, #hidden-content2{
-    height: 500px;
-    width: 700px;
-    border: 5px red ridge;
-    opacity: 0.5 ;
-    background: #f5f5f5;
-}
-em{
-    color: red;
-    text-decoration: underline
+.container {
+  margin-top: 75px;
+  /* height: 500px; */
+  border: 5px black;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
-.hr-1{
-    /* margin-top: -31px; */
-    height: 12px !important;
-    border: 0 !important;
-    box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5) !important;
-    display: block
+h2,
+h3 {
+  /* text-align: center; */
+  margin: 8px;
+  color: rgb(243, 243, 243);
+  font-family: "Playfair Display", serif;
 }
-img{
-    height: 250px;
-    width: 200px;
-    
+#name {
+  color: white;
 }
-.fa-wordpress{
-    font-size: 1.7em;
-    color: blue;
+i {
+  /* display: inline-block */
+  size: 200px;
+  padding: 10px;
+}
+a {
+  color: white;
+}
+#email {
+  color: red;
 }
 
-.cardDiv{
-    display:  block;
-
+.container2 {
+  /* outline: 1px solid blue; */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
-#cardText{
-    float: right;
-    width: 50%;
 
+.container3 {
+  /* outline: 1px solid blue; */
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
 }
-#wordpressIMG{
-    margin-right: 5px;
+.blogDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.col {
+  margin: auto;
+  padding: 30px;
+}
+
+#hidden-content,
+#hidden-content2 {
+  height: 500px;
+  width: 700px;
+  border: 5px red ridge;
+  opacity: 0.5;
+  background: #f5f5f5;
+}
+em {
+  color: red;
+  text-decoration: underline;
+}
+
+.hr-1 {
+  /* margin-top: -31px; */
+  height: 12px !important;
+  border: 0 !important;
+  box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5) !important;
+  display: block;
+}
+img {
+  height: 250px;
+  width: 200px;
+}
+.fa-wordpress {
+  font-size: 1.7em;
+  color: blue;
+}
+
+.cardDiv {
+  display: block;
+}
+#cardText {
+  float: right;
+  width: 50%;
+}
+#wordpressIMG {
+  margin-right: 5px;
 }
