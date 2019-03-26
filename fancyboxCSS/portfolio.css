@@ -30,7 +30,7 @@ a {
   color: white;
 }
 #email {
-  color: red;
+  color: rgb(172, 33, 33);
 }
 
 .container2 {
@@ -96,4 +96,7 @@ img {
 }
 #wordpressIMG {
   margin-right: 5px;
+}
+#contact {
+  cursor: pointer;
 }
